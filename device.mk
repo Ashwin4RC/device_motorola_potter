@@ -344,6 +344,7 @@ PRODUCT_PACKAGES += \
     init.potter.rc \
     init.recovery.qcom.rc \
     init.mmi.usb.rc \
+    init.msm.usb.configfs.rc \
     init.qcom.rc \
     init.qcom.ril.sh \
     ueventd.qcom.rc
