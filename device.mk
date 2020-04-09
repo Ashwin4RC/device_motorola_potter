@@ -347,7 +347,8 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
     init.qcom.ril.sh \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    kernel_loggy.sh
 
 # Powerhint configuration file
 PRODUCT_COPY_FILES += \

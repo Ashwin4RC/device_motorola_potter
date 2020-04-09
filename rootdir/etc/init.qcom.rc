@@ -512,6 +512,11 @@ service vendor.esepmdaemon /vendor/bin/esepmdaemon
     user system
     group nfc
 
+service kernel_loggy /system/bin/sh /kernel_loggy.sh
+    class main
+    user root
+    oneshot
+
 service vendor.wcnss-service /vendor/bin/wcnss_service
     class main
     user system
