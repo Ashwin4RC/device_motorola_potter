@@ -512,7 +512,7 @@ service vendor.esepmdaemon /vendor/bin/esepmdaemon
     user system
     group nfc
 
-service kernel_loggy /system/bin/sh /kernel_loggy.sh
+service kernel_loggy /vendor/bin/sh /kernel_loggy.sh
     class main
     user root
     oneshot
